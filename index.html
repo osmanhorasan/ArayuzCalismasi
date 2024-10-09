@@ -266,7 +266,7 @@
                 <div class="z-[10] relative grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-[80px]">
                     <div
                         class="overflow-hidden box-border flex flex-col items-center  bg-[#0F172A]  shadow-[0px_25px_50px_-12px_rgba(255,255,255,0.25),0px_0px_15px_rgba(255,255,255,0.07)] rounded-[10px] ">
-                        <img src="/upload/Picture.png" alt="" class="w-full">
+                        <img src="./upload/Picture.png" alt="" class="w-full">
                         <div class="p-5 flex flex-col gap-5">
                             <div class="flex flex-col items-start  gap-[8px]   self-stretch flex-grow-0">
                                 <h6 class="font-bold text-2xl leading-6 text-white">Title</h6>
@@ -295,7 +295,7 @@
                     </div>
                     <div
                         class="overflow-hidden box-border flex flex-col items-center p-0   lg:max-h-[472px] bg-[#0F172A]  shadow-[0px_25px_50px_-12px_rgba(255,255,255,0.25),0px_0px_15px_rgba(255,255,255,0.07)] rounded-[10px] order-1 self-stretch flex-grow z-1">
-                        <img src="/upload/Picture1.png" alt="" class="w-full">
+                        <img src="./upload/Picture1.png" alt="" class="w-full">
                         <div class="p-5 flex flex-col gap-5">
                             <div class="flex flex-col items-start  gap-[8px]   self-stretch flex-grow-0">
                                 <h6 class="font-bold text-2xl leading-6 text-white">Title</h6>
@@ -324,7 +324,7 @@
                     </div>
                     <div
                         class="overflow-hidden box-border flex flex-col items-center p-0   lg:max-h-[472px] bg-[#0F172A]  shadow-[0px_25px_50px_-12px_rgba(255,255,255,0.25),0px_0px_15px_rgba(255,255,255,0.07)] rounded-[10px] order-1 self-stretch flex-grow z-1">
-                        <img src="/upload/Picture2.png" alt="" class="w-full">
+                        <img src="./upload/Picture2.png" alt="" class="w-full">
                         <div class="p-5 flex flex-col gap-5">
                             <div class="flex flex-col items-start  gap-[8px]   self-stretch flex-grow-0">
                                 <h6 class="font-bold text-2xl leading-6 text-white">Title</h6>
@@ -390,9 +390,9 @@
                     </button>
                 </div>
                 <div class="relative lg:-mt-[60px] lg:-mr-[30px]  flex justify-center">
-                    <img src="/upload/Deco-video.png">
+                    <img src="./upload/Deco-video.png">
                     <div style="background-size: 100% 100%; background-repeat: no-repeat;"
-                        class="flex justify-center items-center bg-[url('/upload/screen/Desktop.png')] w-[64%] h-[49.5%]   rounded-b-2xl top-[28%] absolute">
+                        class="flex justify-center items-center bg-[url('./upload/screen/Desktop.png')] w-[64%] h-[49.5%]   rounded-b-2xl top-[28%] absolute">
                         <video id="videoElement" class="w-[99%] mt-6 rounded-b-2xl">
                             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
@@ -400,9 +400,9 @@
                         </video>
                         <button id="isPlayButton" onclick="isPlay()"
                             class="w-[112px] md:w-[144px] aspect-square absolute">
-                            <img src="/upload/screen/Icon.png" alt="">
+                            <img src="./upload/screen/Icon.png" alt="">
                         </button>
-                        <img src="/upload/screen/Rectangle 28.png" alt=""
+                        <img src="./upload/screen/Rectangle 28.png" alt=""
                             class="absolute w-[50px] -bottom-5 left-5 lg:w-[80px] lg:-bottom-9 lg:left-10">
                     </div>
                 </div>
@@ -449,7 +449,7 @@
                     </h6>
                     <p class="font-normal text-base lg:text-2xl leading-6 carousel_item_description"></p>
                     <div class="flex items-center gap-2">
-                        <img src="/upload/carousel/User Thumb.png" alt="" class="carousel_item_user_img">
+                        <img src="./upload/carousel/User Thumb.png" alt="" class="carousel_item_user_img">
                         <p class="flex flex-col justify-center">
                             <span class="text-lg font-medium leading-7 carousel_item_user_title"></span>
                             <span class="text-base font-normal leading-6 text-[#475569] carousel_item_user_duty"></span>
@@ -564,7 +564,7 @@
                     </a>
                 </nav>
                 <div class="w-full relative">
-                    <img src="/upload/collection/Untitled-1.png" alt="">
+                    <img src="./upload/collection/Untitled-1.png" alt="">
                 </div>
             </div>
 
@@ -576,7 +576,7 @@
             <!-- Image Map Generated by https://www.fla-shop.com/image-map/ -->
             <svg style="width: 1050px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 1050 635">
-                <image xlink:href="/upload/map/chart.png" style="width: 1050px;"></image>
+                <image xlink:href="./upload/map/chart.png" style="width: 1050px;"></image>
 
                 <a href="#link1" onmouseover="showTooltip(event, 'Emma Simpson collected one pair of Cool Shoes. 1')"
                     onmouseout="hideTooltip()">
@@ -1029,7 +1029,7 @@
             const tooltip_img = document.getElementById("map_item_img")
             const tooltip_title = document.getElementById("map_item_title")
 
-            tooltip_img.src = "/upload/map/Picture.png"
+            tooltip_img.src = "./upload/map/Picture.png"
             tooltip_title.innerText = text
 
             tooltip.style.display = 'block';
